@@ -8,7 +8,7 @@ export default class Thread extends Component {
         <div className="col-xs-6 col-md-3">
             <div className="thumbnail">
                 <img src="http://ccspits.org/wp-content/uploads/2015/10/image-coming-soon.png" alt="..."/>
-                <Link to="#"><h3>{this.props.thread.title}...</h3></Link>
+                <Link to="#"><h3>{this.props.thread.judul}...</h3></Link>
             </div>
         </div>
     );

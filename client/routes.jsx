@@ -7,6 +7,7 @@ import Forum from './layouts/component/Forum';
 import Jubel from './layouts/component/Jubel';
 import NewThread from './layouts/component/NewThread';
 import NewLapak from './layouts/component/NewLapak';
+import Login from './layouts/component/Login';
 
 import useBasename from 'history/lib/useBasename';
 
@@ -36,6 +37,14 @@ const rootRoute = {
       {
         path: 'newlapak',
         component: NewLapak,
+      },
+      {
+        path: 'login',
+        component: Login,
+      },
+      {
+        path: 'register',
+        component: Register,
       }
     ]
   } ]

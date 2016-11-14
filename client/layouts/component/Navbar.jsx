@@ -31,6 +31,7 @@ class Navbar extends Component {
                 <ul className="nav navbar-nav navbar-right">
                     <li><Link to="/newthread" activeClassName="active">Bikin Thread</Link></li>
                     <li><Link to="/newlapak" activeClassName="active">Bikin Lapak</Link></li>
+                    <li><Link to="/login" activeClassName="active"><small>Login | Register</small></Link></li>
                 </ul>
                 </div>
             </div>
